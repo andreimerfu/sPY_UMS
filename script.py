@@ -1,5 +1,3 @@
-# UMS Hacking script
-
 # A se folosi in scop educational !
 
 # Python 2.7
@@ -35,13 +33,13 @@ else:
     print('Nu ai ales o varianta corecta !')
     exit(1)
 
-path_gecodriver = '/home/andreimerfu/PycharmProjects/untitled/geckodriver'
+path_gecodriver = 'path'
 
 driver = webdriver.Firefox(executable_path=path_gecodriver)
 
 control = [2, 7, 9, 1, 4, 6, 3, 5, 8, 2, 7, 9]
 
-cnp = str(input('Introduceti primele 9 cifre din CNP: '))
+cnp = str(input('Introduceti primele 9 cifre: '))
 cnpInitial = cnp
 
 
